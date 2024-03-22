@@ -21,6 +21,11 @@ export default {
       'smm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
     },
+    extend:{
+      fontFamily:{
+        "kronaone": [ "Krona One", "sans-serif"]
+      }
+    }
   },
   plugins: [],
 }

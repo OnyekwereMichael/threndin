@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body{
-  /* background-color: rgb(1, 1, 31); */
+  font-family: inter;
 }
-
 :root{
   --WHITE: WHITE;
   --DISPLAY: NONE;
   --TEXTCENTER: CENTER;
+}
+.blogs{
+  border-top:  2px solid #0026CA;
+  border-left:  2px solid #0026CA;
 }
 /* toggle button stling */
 .show-nav a {
