@@ -56,7 +56,7 @@ function header() {
       </section>
 
       <section>
-        <h1 className="text-center text-white pt-24 text-4xl tracking-tight font-kronaone smm:pt-10">
+        <h1 className="text-center text-white pt-24 text-4xl tracking-tight font-kronaone smm:pt-10 smm:text-2xl">
           Lorem ipsum dolor
         </h1>
         <p className="text-center text-white mt-4 smm:text-sm smm:px-4">

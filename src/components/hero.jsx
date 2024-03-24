@@ -3,18 +3,27 @@ import { frames } from "../components/mapped"
 import ellispe from "../assets/Ellipse.png"
 import ellispe2 from "../assets/Ellipse2.png"
 import framee from "../assets/framee.png"
+// import SwiperCore, {Navigation, Pagination, Scrollbar} from "swiper";
+import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from 'react-router-dom'
 import "swiper/css";
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+// SwiperCore.use([Navigation, Pagination, Scrollbar])
+
 function hero() {
   return (
    <main className=''>
      <h1 className='text-[#021C8B] text-center font-bold text-3xl mt-10'>Try Our Products</h1>
 
- <section className="mt-10 p-6 smm:p-2">
+ <section className="mt-10 p-6 smm:flex smm:justify-center">
           <Swiper
             spaceBetween={1}
             slidesPerView={1}
+            navigation
+            pagination={{clickable: true}}
+            scrollbar={{draggable: true}}
             breakpoints={{
               540: {
                 slidesPerView: 1,
@@ -54,7 +63,7 @@ function hero() {
 
         <section>
         <h1 className='text-[#021C8B] text-center font-bold text-3xl mt-10'>Featured Blogs</h1>
-        <section className='flex justify-center items-center mt-10 smm:flex-wrap xll:flex-wrap'>
+        <section className='flex justify-around items-center mt-10 smm:flex-wrap xll:flex-wrap xll: gap-5'>
           <section className='border-[#0026CA] rounded w-64 mx-3 p-2  blogs smm:w-full'>
             <h2 className='text-black hover:text-[#0026CA] pointer font-bold'>Lorem ipsum dolor </h2>
             <p className='mt-4 text-black'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod </p>
@@ -79,7 +88,7 @@ function hero() {
             <a href="" className='text-[#0026CA] font-semibold'>Save for later</a>
             </div>
             </section>
-          <section className='border-[#0026CA] rounded w-64 mx-3 p-2  blogs smm:w-full'>
+          <section className='border-[#0026CA] rounded w-64 mx-3 p-2  blogs smm:w-full '>
             <h2 className='text-black hover:text-[#0026CA] pointer font-bold'>Lorem ipsum dolor </h2>
             <p className='mt-4 text-black'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod </p>
             <div className='mt-4 flex items-center gap-5'>
