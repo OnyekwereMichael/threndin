@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 body{
-  font-family: inter;
+  /* font-family: inter; */
 }
 :root{
   --WHITE: WHITE;
