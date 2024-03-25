@@ -3,8 +3,8 @@ import { frames } from "../components/mapped"
 import ellispe from "../assets/Ellipse.png"
 import ellispe2 from "../assets/Ellipse2.png"
 import framee from "../assets/framee.png"
-// import SwiperCore, {Navigation, Pagination, Scrollbar} from "swiper";
-import { Navigation, Pagination } from 'swiper/modules';
+// import {Ally,  Navigation, Pagination } from 'swiper';
+// import { SwiperNavbuttons } from "swiper/react"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from 'react-router-dom'
 import "swiper/css";

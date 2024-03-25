@@ -28,7 +28,7 @@ function footer() {
         </div>
       </section>
 
-      <section className="flex justify-between items-center mt-2 p-8 flex-wrap smm:p-2 smm:mt-9 ">
+      <section className="flex justify-between items-center mt-2 p-8 flex-wrap  smm:mt-9 ">
         <div>
           <a href="" className="block text-[#036EFF] mt-3">
             About us
@@ -45,7 +45,7 @@ function footer() {
         </div>
 
         <div>
-          <img src={threndin} alt="" />
+          <img src={threndin} alt="" className="smm:hidden"/>
         </div>
 
         <div className=" block">
@@ -76,7 +76,7 @@ function footer() {
             <img src={facebook} alt="" />
           </div>
           <div className="flex justify-end px-10 py-2 smm:px-2">
-            <img src={topdown} alt="" className="w-10" />
+            <a href="http://localhost:5173/"><img src={topdown} alt="" className="w-10" /></a>
           </div>
         </section>
       </section>
