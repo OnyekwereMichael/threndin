@@ -7,6 +7,9 @@ import linkedin from "../assets/linkedin.png";
 import topdown from "../assets/topdown.png";
 
 function footer() {
+  const top = () =>{
+    window.scrollTo(0, 0)
+  }
   return (
     <footer className="bg-[#080A35] mt-24">
       <h1 className="text-center text-white pt-7 text-2xl smm:text-xl">
@@ -76,7 +79,7 @@ function footer() {
             <img src={facebook} alt="" />
           </div>
           <div className="flex justify-end px-10 py-2 smm:px-2">
-            <a href="http://localhost:5173/"><img src={topdown} alt="" className="w-10" /></a>
+            <a href="" onClick={top}><img src={topdown} alt="" className="w-10" /></a>
           </div>
         </section>
       </section>
