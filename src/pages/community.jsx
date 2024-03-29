@@ -51,7 +51,7 @@ function community() {
         slidesPerView: 1,
       },
       600: {
-        slidesPerView: 2,
+        slidesPerView: 1,
       },
       1000: {
         slidesPerView: 3,
@@ -61,7 +61,7 @@ function community() {
     {groups.map((item, ivx) => (
       <div key={ivx} className=""> {/* Added margin to space out items */}
         <SwiperSlide>    
-          <div className='bg-[#4860CB] rounded w-96 blogs p-4 smm:w-full xll:w-96'>
+          <div className='bg-[#4860CB] rounded w-96 blogs p-4 smm:w-full xll:w-96 lgg:w-full'>
             <img src={item.img} alt=""className='mr-4' />
             <h1 className='mt-4 font-bold mr-4'>{item.Group}</h1>
             <p className='mt-4 mr-4'>{item.Preveiw}</p>
@@ -97,7 +97,7 @@ function community() {
     </section>
 
     <section className='flex justify-between items-center mt-10 p-8 smm:flex-wrap smm:p-2 smm:mt-0 xll:p-2'>
-    <section className='border-[#0026CA] rounded w-80 mx-3 p-2 bg-[#B7D3F9]  blogs smm:w-full smm:mt-6'>
+    <section className='border-[#0026CA] rounded w-80 mx-3 p-2 bg-[#B7D3F9]  blogs smm:w-full smm:mt-6 '>
          <img src={threndin} alt="" className='w-20'  />
         <h1 className='font-bold text-xl'>Product Designer's Group</h1>
         <p className='mt-4'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod Lorem ipsum dolor sit it, sed do eiusmod .</p>
