@@ -141,7 +141,7 @@ function hero() {
 
         <section>
         <h1 className='text-[#021C8B] text-center font-bold text-3xl mt-10'>Featured Blogs</h1>
-        <section className='flex justify-around items-center mt-10 smm:flex-wrap xll:flex-wrap xll: gap-5'>
+        <section className='flex justify-around items-center mt-10 smm:flex-wrap xll:flex-wrap xll: gap-5 smm:gap-10'>
           <section className='border-[#0026CA] rounded w-64 mx-3 p-2  blogs smm:w-full'>
             <h2 className='text-black hover:text-[#0026CA] pointer font-bold'>Lorem ipsum dolor </h2>
             <p className='mt-4 text-black'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod </p>
