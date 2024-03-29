@@ -18,7 +18,7 @@ function header() {
           <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
             Home
           </a>
-          <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
+          <a className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
             About us
           </a>
           <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
@@ -27,7 +27,7 @@ function header() {
           <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
             Jobs
           </a>
-          <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
+          <a href="/Community" to="/Community"   className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
             Community
           </a>
           <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
@@ -49,9 +49,11 @@ function header() {
 
       <section className="bg-trasparent">
         <article className={`${menu ? "show-nav" : ""} bg-blue-800`}>
+          <div>
           <a className="text-white text-xl ml-5 LINKS">Home</a>
-          <a className="ml-5 text-white text-xl LINKS">Apartment</a>
           <a className="ml-5 text-white text-xl LINKS">About us</a>
+          <a className="ml-5 text-white text-xl LINKS">Product</a>
+          </div>
         </article>
       </section>
 
