@@ -16,7 +16,7 @@ function community() {
     <section className='flex justify-between px-7 items-center'>
        <img src={threndin} alt="" className='text-black'/>
        <div>
-         <Link className='ml-6 bg-[#036EFF] text-white py-2 px-3 rounded smm:hidden'>Sign up</Link>
+         <Link to={"/signup"} className='ml-6 bg-[#036EFF] text-white py-2 px-3 rounded smm:hidden'>Sign up</Link>
          <Link className='ml-6 border border-[#036EFF]  py-2 px-3 rounded smm:hidden'>Log in</Link>
        </div>
 
