@@ -8,22 +8,16 @@
 body {
   font-family: inter;
 }
-.th{
-  filter: invert(0%) 
-  sepia(14%) 
-  saturate(5%) 
-  hue-rotate(323deg) 
-  brightness(102%) 
-  contrast(100%);
-}
+
 :root {
   --WHITE: WHITE;
   --DISPLAY: NONE;
   --TEXTCENTER: CENTER;
 }
 .blogs {
-  border-top: 2px solid #0026ca;
-  border-left: 2px solid #0026ca;
+  /* border-top: 2px solid #0026ca;
+  border-left: 2px solid #0026ca; */
+  border: 2px solid #0026ca;
 }
 
 /* toggle button stling */
@@ -59,6 +53,10 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
   background-color: red;
+}
+nav a:active::before {
+  width: 100%;
+  background-color: gray;
 }
 /* toggle button styling */
 @media screen and (min-width: 500px) {
