@@ -9,14 +9,7 @@ body {
   font-family: inter;
   /* border: 2px solid red; */
 }
-.th{
-  filter: invert(0%) 
-  sepia(14%) 
-  saturate(5%) 
-  hue-rotate(323deg) 
-  brightness(102%) 
-  contrast(100%);
-}
+
 :root {
   --WHITE: WHITE;
   --DISPLAY: NONE;

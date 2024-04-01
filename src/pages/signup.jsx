@@ -4,7 +4,7 @@ import community2 from '../assets/community2.png'
 function signup() {
   return (
     <div className='bg-[#113F83]'>
-    <section className='flex justify-between items-center relative'>
+    <section className='flex justify-between items-center'>
         <img src={community2} alt="" className='smm:hidden'/>
         <section className='bg-white p-10 m-10 smm:p-0 smm:mx-4'>
         <div>
