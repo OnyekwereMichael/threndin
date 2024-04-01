@@ -25,22 +25,22 @@ function hero() {
       <img src={amazon} alt="" className=" mt-6 w-24 smm:w-24"/>
       <section className="flex ">
       <nav className="text-blue-700 mt-6 nave smm:hidden">
-        <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
+        <a href="#" className="text-[#757793] hover:text-[#fff] active:text-red-700 font-semibold mr-5">
           Home
         </a>
-        <a href="" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
+        <a href="" className="text-[#757793] hover:text-[#fff] active:text-red-700 font-semibold mr-5">
           About us
         </a>
-        <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
+        <a href="#" className="text-[#757793] hover:text-[#fff] active:text-red-700 font-semibold mr-5">
           Product
         </a>
-        <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
+        <a href="#" className="text-[#757793] hover:text-[#fff] active:text-red-700 font-semibold mr-5">
           Jobs
         </a>
-        <a href="/community" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
+        <a href="/community" className="text-[#757793] hover:text-[#fff] active:text-red-700 font-semibold mr-5">
           Community
         </a>
-        <a href="#" className="text-[#757793] hover:text-[#fff] font-semibold mr-5">
+        <a href="#" className="text-[#757793] hover:text-[#fff] active:text-red-700 font-semibold mr-5">
           Contact
         </a>
       </nav>
@@ -59,12 +59,12 @@ function hero() {
 
     <section className="bg-trasparent">
       <article className={`${menu ? "show-nav" : ""} bg-blue-800 transition-all `}>
-        <a href="" className="text-white text-xl ml-5 LINKS">Home</a>
-        <a href="" className="ml-5 text-white text-xl LINKS">About us</a>
-        <a className="ml-5 text-white text-xl LINKS">Product</a>
-        <a className="text-white text-xl ml-5 LINKS">Jobs</a>
-        <a href="/community" className="ml-5 text-white text-xl LINKS">Community</a>
-        <a className="ml-5 text-white text-xl LINKS">Contact</a>
+        <a href="" className="text-white text-xl ml-5 LINKS hover:text-[#fff] active:text-red-700">Home</a>
+        <a href="" className="ml-5 text-white text-xl LINKS hover:text-[#fff] active:text-red-700">About us</a>
+        <a className="ml-5 text-white text-xl LINKS hover:text-[#fff] active:text-red-700">Product</a>
+        <a className="text-white text-xl ml-5 LINKS hover:text-[#fff] active:text-red-700">Jobs</a>
+        <a href="/community" className="ml-5 text-white text-xl LINKS hover:text-[#fff] active:text-red-700">Community</a>
+        <a className="ml-5 text-white text-xl LINKS hover:text-[#fff] active:text-red-700">Contact</a>
       </article>
     </section>
 
@@ -141,7 +141,7 @@ function hero() {
 
         <section>
         <h1 className='text-[#021C8B] text-center font-bold text-3xl mt-10'>Featured Blogs</h1>
-        <section className='flex justify-around items-center mt-10 smm:flex-wrap xll:flex-wrap xll: gap-5 smm:gap-10'>
+        <section className='flex justify-around items-center mt-10 smm:flex-wrap xll:flex-wrap xll: gap-10 smm:gap-10'>
           <section className='border-[#0026CA] rounded w-64 mx-3 p-2  blogs smm:w-full'>
             <h2 className='text-black hover:text-[#0026CA] pointer font-bold'>Lorem ipsum dolor </h2>
             <p className='mt-4 text-black'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod </p>

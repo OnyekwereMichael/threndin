@@ -31,8 +31,8 @@ function community() {
 
     <section className="bg-trasparent">
       <article className={`${menu ? "show-nav" : ""} bg-blue-800`}>
-      <Link className=' bg-[#036EFF] text-white py-2 px-3 rounded'>Sign up</Link>
-        <Link className=' border border-[#036EFF]  py-2 px-3 rounded'>Log in</Link>
+      <Link to={"/signup"} className='bg-[#036EFF] text-white py-2 px-3 rounded active:text-red-800'>Sign up</Link>
+        <Link className=' border border-[#036EFF]  py-2 px-3 rounded active:text-red-800'>Log in</Link>
       </article>
     </section>
 
@@ -59,7 +59,7 @@ function community() {
     }}
   >
     {groups.map((item, ivx) => (
-      <div key={ivx} className=""> {/* Added margin to space out items */}
+      <div key={ivx} className="">
         <SwiperSlide>    
           <div className='bg-[#4860CB] rounded w-96 blogs p-4 smm:w-full xll:w-96 lgg:w-full'>
             <img src={item.img} alt=""className='mr-4' />
@@ -75,22 +75,23 @@ function community() {
 
 
   <h1 className=' text-[#021C8B] text-center font-bold text-3xl mt-10 smm:text-2xl'>Community Learning resources</h1>
-  <section className='flex justify-between items-center mt-10 p-8 smm:flex-wrap smm:p-2 smm:mt-2  xll:p-2'>
+  <section className='flex justify-between items-center mt-10 p-8 smm:flex-wrap smm:p-2 smm:mt-2 smm: xll:p-2'>
+
     <section className='border-[#0026CA] rounded w-80 mx-3 p-2  blogs bg-[#B7D3F9] smm:w-full smm:mt-6'>
         <img src={threndin} alt="" className='w-20'/>
-        <h1 className=' font-bold text-xl'>Product Designer's Group</h1>
+        <h1 className=' font-bold text-xl'>Lorem ipsum dolor </h1>
         <p className='mt-4'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod Lorem ipsum dolor sit it, sed do eiusmod .</p>
         <button className=' text-[#0026CA] py-1 px-4  rounded font-semibold mt-4 border border-[#0026CA] '><a href="" className='cursor-pointer'>Join now</a></button>
     </section>
     <section className='border-[#0026CA] rounded w-80 mx-3 p-2  blogs bg-[#B7D3F9] smm:w-full smm:mt-6'>
         <img src={threndin} alt="" className='w-20'/> 
-        <h1 className='font-bold text-xl'>Content creator's Group</h1>
+        <h1 className='font-bold text-xl'>Lorem ipsum dolor </h1>
         <p className='mt-4'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod Lorem ipsum dolor sit it, sed do eiusmod .</p>
         <button className=' text-[#0026CA] py-1 px-4  rounded font-semibold mt-4 border border-[#0026CA] '><a href="" className='cursor-pointer'>Join now</a></button>
     </section>
     <section className='border-[#0026CA] rounded w-80 mx-3 p-2  blogs bg-[#B7D3F9] smm:w-full smm:mt-6'>
         <img src={threndin} alt="" className='w-20'/>
-        <h1 className=' font-bold text-xl'>Developers Group</h1>
+        <h1 className=' font-bold text-xl'>Lorem ipsum dolor </h1>
         <p className='mt-4'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod Lorem ipsum dolor sit it, sed do eiusmod .</p>
         <button className=' text-[#0026CA] py-1 px-4  rounded font-semibold mt-4 border border-[#0026CA] '><a href="" className='cursor-pointer'>Join now</a></button>
     </section>
@@ -99,19 +100,19 @@ function community() {
     <section className='flex justify-between items-center mt-10 p-8 smm:flex-wrap smm:p-2 smm:mt-0 xll:p-2'>
     <section className='border-[#0026CA] rounded w-80 mx-3 p-2 bg-[#B7D3F9]  blogs smm:w-full smm:mt-6 '>
          <img src={threndin} alt="" className='w-20'  />
-        <h1 className='font-bold text-xl'>Product Designer's Group</h1>
+        <h1 className='font-bold text-xl'>Lorem ipsum dolor </h1>
         <p className='mt-4'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod Lorem ipsum dolor sit it, sed do eiusmod .</p>
         <button className=' text-[#0026CA] py-1 px-4  rounded font-semibold mt-4 border border-[#0026CA] '><a href="" className='cursor-pointer'>Join now</a></button>
     </section>
     <section className='border-[#0026CA] rounded w-80 mx-3 p-2  blogs bg-[#B7D3F9] smm:w-full smm:mt-6'>
          <img src={threndin} alt="" className='w-20'/>
-        <h1 className=' font-bold text-xl'>Content creator's Group</h1>
+        <h1 className=' font-bold text-xl'>Lorem ipsum dolor </h1>
         <p className='mt-4'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod Lorem ipsum dolor sit it, sed do eiusmod .</p>
         <button className=' text-[#0026CA] py-1 px-4  rounded font-semibold mt-4  border border-[#0026CA] '><a href="" className=' cursor-pointer'>Join now</a></button>
     </section>
     <section className='border-[#0026CA] rounded w-80 mx-3 p-2  blogs bg-[#B7D3F9] smm:w-full smm:mt-6'>
          <img src={threndin} alt="" className='w-20'/>
-        <h1 className=' font-bold text-xl'>Developers Group</h1>
+        <h1 className=' font-bold text-xl'>Lorem ipsum dolor </h1>
         <p className='mt-4'>Lorem ipsum dolor sit amet,consecteturadipiscing elit, consecte tura dipis cing elit, sed do eiusmod Lorem ipsum dolor sit it, sed do eiusmod .</p>
         <button className=' text-[#0026CA] py-1 px-4  rounded font-semibold mt-4 border border-[#0026CA] '><a href="" className=' cursor-pointer'>Join now</a></button>
     </section>
